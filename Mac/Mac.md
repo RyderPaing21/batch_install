@@ -1,4 +1,6 @@
 # Lab_00-Write-Up
+- Brian Luu  <br>
+- Pasadena City College  <br>
 
 ## Homebrew
 Open the terminal. <br>
@@ -10,28 +12,31 @@ Open the terminal. <br>
   
 ![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/47bfa352-cccd-4aa5-af33-8bc5983c9e68) <br>
 
-## Git
-- Check if git is installed using "git --version"
-- If it is not installed paste this command into the terminal "brew install git"
-- If it is installed and the version is less than 2.41.0 paste this command into the terminal "brew upgrade git"
+# Script to Cmake/git/vsc 
 
-## Cmake
-- Check if cmake is installed using "cmake --version"
-- If it is not installed paste this command into the terminal "brew install cmake"
-- If the version is less than 3.26.4 paste this command into the terminal "brew upgrade cmake"
+## Source code.
+[Script source code](https://github.com/barkeshli-pcc/batch_install/blob/main/Mac/Mac%20script%20source%20code.) <br> 
+## Creating a bash script.
 
-## Clang
-- Check if clang is installed using "clang --version".
-- If it is not installed paste this command into the terminal "xcode-select --install"
-- If the version is less than 14.0.03 follow these steps.
-  - Remove the old tools using this command "sudo rm -rf /Library/Developer/CommandLineTools"
-  - Then reinstall the tools using this command "xcode-select --install"
+[Video reference](https://www.youtube.com/watch?v=m6w_NJJnbpQ) <br><br>
+**Step #1.) Create a folder named installs.** <br> 
+**Step #2.) Open terminal**. <br>
+**Step #3.) Go to the folder destination using this command** <br>
+*- cd Desktop/My \installs* <br>
+Step #4.) Create a .sh file <br>
+*- vim setup.sh <--- .sh file named setup remember the file name we'll use it later.* <br>
+**Step #5.) Go to insert mode by pressing I.**
+**Step #6.) Go to the source code linked ahead copy and paste the code into the terminal.** <br>
+**Step #7.) When the code is pasted into the terminal press esc then type this into the terminal** <br>
+ *- :wq! <br>*
+**Step #8.) Type this into the terminal to give it executable permission.** <br>
+ *- chmod 755 setup.sh <br>*
+**Step #9.) Run the script by typing** <br>
+ *./setup.sh* <br>
 
-## VSC and Extension
-- If VSCode is not installed paste this command into the terminal "brew install --cask visual-studio-code"
-- Extensions download
-  - Cmake tools
-  - C/C++
+## VSC extensions to download.
+- Cmake tools
+- C/C++
 
 ![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/44cd96dd-37f5-41ed-9702-662bf891ab9c) <br>
 ![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/40babe5c-0de9-4a7a-a753-a35409496afe) <br>
