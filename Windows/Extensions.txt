@@ -1,0 +1,5 @@
+REM Install Visual Studio Code C++ extension (if needed)
+code --list-extensions | findstr /C:"ms-vscode.cpptools" > nul 2>&1 || code --install-extension ms-vscode.cpptools
+
+REM Install Visual Studio Code Cmake Tools Extension (if needed)
+code --list extensions | findstr /C:"ms-vscode.cmake-tools" > nul 2>&1 || code --install-extension ms-vscode.cmake-tools
