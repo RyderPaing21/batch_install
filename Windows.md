@@ -4,7 +4,7 @@ You can either manually create and run the batchfile or download it. You ***do n
 - ### [Powershell Prerequesite](#Powershell-Prerequesite) 
 - ### [Manual Batchfile Creation](#Batch-File-Creation)
 - ### [Download Batchfile](#Batch-File-Download)
-- ### [Mingw Installation](#Mingw-Installation)
+- ### [Mingw Installation](#MinGW-Installation)
 <br><br><br><br><br><br><br>
 
 ## 🟢 Powershell Prerequesite 
@@ -18,7 +18,7 @@ Type in y and press enter. <br>
 
 <br><br><br><br><br><br><br>
 
-## 🟢 Batch File Creation.
+## 🟢 Batch File Creation
 To create a batch file create a new .txt file and rename it so that it ends with .bat.
 
 #### Chocolatey
