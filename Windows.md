@@ -87,7 +87,7 @@ Make sure you completed the [Powershell Prerequesite](#Powershell-Prerequesite) 
 
 <br><br><br><br><br><br><br>
 
-## MinGW Installation
+## 🟢 MinGW Installation
 Click on this link and follow the installation instructions. [MinGW install](https://sourceforge.net/projects/mingw/) <br> 
 
 Right click and press mark for installation for all of the packages.  <br>
@@ -101,7 +101,7 @@ Click the checkbox to close the dialouge after the installation finishes <br>
 ![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/690b2147-54e1-49c3-8698-9c3db0fb037b)  <br>
 ![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/e2c889df-c254-4319-8188-735268e40f63)  <br>
 
-## 🟢 MinGW Setup
+## MinGW Setup
 Now we will set the MinGW path. <br> 
 1.) Go to the search bar and type in Path <br>
 ![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/61f74c36-b6eb-433a-a801-3781b11aef14)  <br>
