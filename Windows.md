@@ -2,11 +2,12 @@
 # Index:
 You can either manually create and run the batchfile or download it. You ***do not*** have to do both.
 - ### [Powershell Prerequesite](#Powershell-Prerequesite) 
-- ### [Manual Batchfile Creation](#Batch-File-Creation)
+- ### [Manual Batchfile Creation](#Second-Heading)
 - ### [Download Batchfile](#Batch-File-Download)
 - ### [Mingw Installation](#MinGW-Installation)
 <br><br><br><br><br><br><br>
 
+<a name="Powershell_Prerequesite"></a>
 ## 🟢 Powershell Prerequesite 
 Type PowerShell in the search bar and run it as administrator.  <br>
 Then inside the shell type "Set-ExecutionPolicy RemoteSigned"   <br><br>
@@ -18,6 +19,7 @@ Type in y and press enter. <br>
 
 <br><br><br><br><br><br><br>
 
+<a name="Batch_File_Creation"></a>
 ## 🟢 Batch File Creation
 To create a batch file create a new .txt file and rename it so that it ends with .bat.
 
@@ -74,6 +76,7 @@ You should end up with three .bat files and a .txt file. <br>
 
 <br><br><br><br><br><br><br>
 
+<a name="Batch_File_Download"></a>
 ## 🟢 Batch File Download
 Go to this [link](https://github.com/barkeshli-pcc/batch_install/tree/main/Windows) and download these files. <br>
 Make sure you completed the [Powershell Prerequesite](#Powershell-Prerequesite) then run these files in this order as ADMINISTRATOR.
@@ -87,6 +90,7 @@ Make sure you completed the [Powershell Prerequesite](#Powershell-Prerequesite) 
 
 <br><br><br><br><br><br><br>
 
+<a name="MinGW_Installation"></a>
 ## 🟢 MinGW Installation
 Click on this link and follow the installation instructions. [MinGW install](https://sourceforge.net/projects/mingw/) <br> 
 
