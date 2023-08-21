@@ -75,7 +75,7 @@ You should end up with three .bat files and a .txt file. <br>
 <br><br><br><br><br><br><br>
 
 ## 🟢 Batch File Download
-Go to this [link](https://github.com/Nairbuul/Lab_00-Write-Up/tree/main/Windows) and download these files. <br>
+Go to this [link](https://github.com/barkeshli-pcc/batch_install/tree/main/Windows) and download these files. <br>
 Make sure you completed the [Powershell Prerequesite](#Powershell-Prerequesite) then run these files in this order as ADMINISTRATOR.
 - #1.) Chocolatey
 - #2.) Build
