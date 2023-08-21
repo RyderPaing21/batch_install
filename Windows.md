@@ -5,6 +5,7 @@ You can either manually create and run the batchfile or download it. You ***do n
 - ### [Manual Batchfile Creation](#Batch_File_Creation)
 - ### [Download Batchfile](#Batch_File_Download)
 - ### [Mingw Installation](#MinGW_Installation)
+- ### [Next Step](#Next_Step)
 <br><br><br><br><br><br><br>
 
 <a name="Powershell_Prerequesite"></a>
@@ -118,4 +119,5 @@ Now we will set the MinGW path. <br>
 3c.) Click ok. <br><br>
 ![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/90bdfef4-9718-4f5e-a1e8-806589878683)  <br><br><br>
 
+<a name="Next_Step"></a>
 # After you finish running the scripts and installing MinGW move onto the [next step.](https://github.com/barkeshli-pcc/lab-00-writeup/blob/master/start_project.md)
