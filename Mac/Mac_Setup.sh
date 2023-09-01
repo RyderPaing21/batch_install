@@ -18,7 +18,7 @@ if test -f "$FILE"; then
     brew upgrade cmake
 else
     echo "$FILE doesn't exist."
-    brew install git
+    brew install cmake
 fi
 
 FILE=/usr/bin/clang
