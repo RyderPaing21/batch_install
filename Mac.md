@@ -82,7 +82,10 @@ brew install --cask visual-studio-code
 
 <a name="Script_Download"></a>
 ## 🟢 Script Download
-Go to this [link](https://github.com/barkeshli-pcc/batch_install/blob/main/Mac/Mac_Setup.sh) download it and run as administrator.
+Go to this [link](https://github.com/barkeshli-pcc/batch_install/blob/main/Mac/Mac_Setup.sh) and download the file.
+- Go to your terminal.
+  - Type in chmod 755 Mac_Setup.sh (This'll allow your script to run on your machine.)
+  - Type in ./Mac_setup.sh         (This'll run the script on your machine.)
 
 <br><br><br><br><br><br><br>
 
