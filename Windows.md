@@ -95,7 +95,7 @@ Make sure you completed the [Powershell Prerequesite](#Powershell-Prerequesite) 
 ## 🟢 MinGW Installation
 Click on this link and follow the installation instructions. [MinGW install](https://sourceforge.net/projects/mingw/) <br> 
 
-Right click and press mark for installation for all of the packages.  <br>
+Right click and press mark for installation for all of the packages IN THE BASIC SETUP TAB.  <br>
 ![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/0bd0c2d4-26c4-4f53-a583-d44567adbeb0)  <br><br>
 
 Now click installation and press apply changes. <br>
