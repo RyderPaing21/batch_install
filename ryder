@@ -1,0 +1,124 @@
+/*
+ * Author: Ryder Paing
+ * Project: Change Calculator.
+ * Purpose: Repeatedly ask user for the coin denomination and
+ *              number of coins, when done,
+ *              print the total value of the coins in Dollars
+ * Notes: Inputting the number of coins was not implemented.
+ *
+ * //NOTE: an example of programming style, formatting, and testing for beginners.
+ */
+
+#include <iostream>
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+    cout<<endl<<endl<<endl; //push output down a few lines
+
+    //NOTE: NEVER go beyond column 79.
+    //NOTE: put vertical space between logical blocks of your code.
+    //NOTE: always use constants for numbers.
+    //      You hardly ever use a number in your program.
+    const int DOLLAR = 100;
+    const int HALF = 50;
+    const int QUARTER = 25;
+    const int DIME = 10;
+    const int NICKEL = 5;
+    const int PENNY = 1;
+
+    int total = 0;              //initialize your variables
+    char coin = ' ';            //user's coin denomination:
+                                //$, h, q, d, n, p
+    bool done = false;          //true when done.
+    cout<<"This program will calculate the total value of coins."<<endl;
+
+    //NOTE: Break long lines into two:
+    cout<<"[$] Dollar [H]alf [Q]uarter [D]ime "<<
+                     "[N]ickle [P]enny   [?]Menu   e[X]it"<<endl;;
+
+    //main input/processing loop:
+    do{
+        cout<<": ";
+        cin>>coin;
+
+        //NOTE: watch your indentation.
+        //decide which coin has been entered:
+        switch(toupper(coin)){
+        case '$':
+            total += DOLLAR;     //NOTE: constants make your code readable
+            break;
+        case 'H':
+            total += HALF;
+            break;
+        case 'Q':
+            total += QUARTER;
+            break;
+        case 'D':
+            total += DIME;
+            break;
+        case 'N':
+            total += NICKEL;
+            break;
+        case 'P':
+            total += PENNY;
+            break;
+        case 'X':
+            done = true;
+            break;
+        case '?':
+            //NOTE: always have a help in your interactive programs.
+            cout<<"[$] Dollar [H]alf [Q]uarter [D]ime "<<
+                             "[N]ickle [P]enny   [?]Menu   e[X]it"<<endl;;
+            break;
+        default:
+            //NOTE: always have a default case in your switch.
+            cout<<"["<<coin<<"] is not a valid choice. "<<
+                                             "Press [?] for help"<<endl;
+
+        }
+
+    }while (!done);
+
+    double dollar_value = 0;
+    cout<<"------------ RESULTS --------------------"<<endl;
+    //convert total to double for double division:
+    dollar_value = static_cast<double>(total)/100;
+
+    //NOTE: always use magic formula to format uyour doubles:
+    cout.setf(ios::fixed);
+    cout.setf(ios::showpoint);
+    cout.precision(2);
+
+
+    cout<<"Total Dollar value of your coins is: "<<dollar_value<<endl;
+
+    cout <<endl<<endl<<endl
+         << "----------------- END ---------------"
+         <<endl<<endl<<endl<<endl;
+    return 0;
+}
+Work Report:
+To every project you will submit for this class, you will add a work report with the following format to your README.md. Please do not be vague about what does not work in your project. It is very important that I know that you know what's missing from your project.
+
+
+#ifndef Z_WORK_REPORT_H
+#define Z_WORK_REPORT_H
+/*
+    Features:
+        -Not Implemented: Did not implement inputting of number of coins.
+              Could not figure out how to ask for coin denomination AND
+              number of coins in the same loop.
+        -Implemented: inputting of coin denominations and calculating the total in
+               Dollars has been implemented and tested.
+        -Partly implemented: None
+
+    Bugs     : features that are implemented are bug-free.
+
+    Reflections:
+        I started too late and was not able to spend as much time as I needed.
+        inputting of numbers (and their validation) was too hard for me.
+
+
+*/
+#endif // Z_WORK_REPORT_H
